@@ -1,0 +1,23 @@
+{
+  "name": "algos-exercises",
+  "version": "1.0.0",
+  "description": "Algorithms exercises practice.",
+  "main": "bubbleSort.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waruiz/algos-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waruiz/algos-exercises/issues"
+  },
+  "homepage": "https://github.com/waruiz/algos-exercises#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
