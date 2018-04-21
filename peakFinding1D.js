@@ -8,11 +8,9 @@ const peakFinder = (arr) => {
   if (arr.length === 1) {
     return arr[midI];
   }
-  
+
   if (arr[midI] < arr[midI + 1]) {
-    let right = peakFinder(arr.slice(midI + 1));
-    let left = peakFinder(arr.slice(0, midI).concat(right));
-    return left;
+    return peakFinder(arr.slice(0, midI).concat( arr.slice(midI + 1) ));
   } else if (arr[midI] < arr[midI - 1]) {
     return peakFinder(arr.slice(0, midI));
   } else {
